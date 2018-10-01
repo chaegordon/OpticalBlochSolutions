@@ -1,0 +1,23 @@
+#Exercise 2
+#Core Task 2
+
+#The four loop that generated values for various thet0s was removed and theta0 was initialised at the start of the code.
+#It was seen that for high damping the period was too long and a divide by zero error was seen, this was fixed
+#by increasing theta0 to 0.5.
+
+#The plots showed that q=1 was underdamped, while the others (q=5,10) were overdamped with the time to return to equillibrium
+#increasing as q was increased. This was as expected.
+
+#q was then set to 0.5 and F changed to 0.5, 1.2, 1.44, 1.465
+#The period was calculated using the same method as core task 1
+
+#the following values were recorded for q=0.5: 
+#F  		T
+#0.5		8.869
+#1.2		9.175
+#1.44		9.006
+#1.465		8.998
+
+#The plots showed quite specific shapes with the F=1.44 and 1.465 clearly wrapping around. The increase followed by
+#decrease trend is explained by the period increasing as we approach wrap around as the pendulum slows as it passes
+#90 degrees and the decreasing as we wrap around and the increasing F causes it to wrap around quicker.

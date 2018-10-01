@@ -1,0 +1,9 @@
+#Exercise 2
+#Supplementary Task 2
+
+#Same code was used
+#Again chaotic behaviour was seen with small changes in the initial conditions leading to clearly quite different
+#shapes of plots.
+#It was possible to observe the wrap around in the plots when the parabolic shapes turned into spirals.
+
+

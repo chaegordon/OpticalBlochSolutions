@@ -1,0 +1,26 @@
+#Excercise
+
+#Core Task 1
+
+#It was suggested in the Comp. Phys. Excercises handout that an argparser function be used, however this looked hard
+#and as I was using the Spyder IDE adjusting the parameters and running the program was actually quite easy. 
+#Column stacks were used to vectorise the code, the use of these column stacks in pyplot was something that took a little
+#experimenting as the 'out' column stack had the form (t,theta,omega, Energy,KE,PE) I originally forgot that 'solution'
+#had two components and this lead to me plotting omega rather than Energy. Divide by zero errors were often seen if the
+#the 'N' and 'tmax' were not correct I would adjust them till the worked, with 'N' usually being between 1 and 2 orders of magnitude 
+#larger than 'tmax'. The actual solution of the coupled ODE's was done in a way very similar to the way in the lectures.
+
+#The code seemed to conserve energy well with a linear fall in energy of about 2% over 10,000 seconds
+
+#The period was calculated using a method suggested in the handout where an empty array is filled with the time when the 
+#pendulum first crosses the theta 0 point in only the up direction and then the difference between consecutive elements
+#is averaged to give the periods. This part was quite tricky and required some help from demonstrators but once I understood
+#how to use the booleans and elif's it worked out quite nicely.
+
+#The period for theta0=pi/2 was t=7.422 s
+
+#To plot period against amplitude a for loop was made to populate an empty numpy matrix with the period output for different
+#theta0, the method for this was very similar to the method in Excercise 1 but in this case it was important to use an empty
+#numpy array as the array contained things that require numpy module.
+
+#The plot had a non-linear shape with period growing exponentially with the intial angular displacement.

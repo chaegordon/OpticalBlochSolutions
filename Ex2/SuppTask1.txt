@@ -1,0 +1,6 @@
+#Excercise 2
+#Supplementary Task 2
+
+#The system is chaotic and so small changes in the initial conditions lead to large changes in the solutions.
+#The plots are clearly divergent
+#The same code was used in this task as in Core Task 2
