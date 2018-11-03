@@ -1,1 +1,1 @@
-# python
+# All my python code from University highlights include the files in the "Ex" - type folders which I created as part of a scientific #computing course and the Optical Bloch Equation code which I used to solve some questions on an atomic and optical physics problem sheet #given this year.
